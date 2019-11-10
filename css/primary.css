@@ -179,3 +179,14 @@ footer {
   text-align: center;
   line-height: 1.5rem;
 }
+
+.offline-header  {
+  text-transform: uppercase;
+  font-size: 3rem;
+  color: var(--primary-color);
+  padding-top: 20vh;
+}
+
+.offline-cont {
+  height: 70vh;
+}
