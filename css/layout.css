@@ -1,0 +1,42 @@
+/* search bar rgb(118, 74, 188) */
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-cont {
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+}
+.links * {
+  margin: 0 0.3rem;
+}
+header {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo img {
+  margin-right: 0.7rem;
+}
+.header-cont{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+.header-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+
+}
