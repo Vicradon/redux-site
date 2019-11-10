@@ -162,6 +162,14 @@
     </section>
   </footer>
   <script src="index.js"></script>
+
+
+  <script>
+    if ('serviceWorker' in navigator){
+      navigator.serviceWorker.register('./sw.js')
+        .catch(err => console.log("An error occured", err))
+    }
+  </script>
 </body>
 
 </html>
