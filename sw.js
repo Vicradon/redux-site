@@ -20,6 +20,8 @@ const assets = [
 ]
 
 self.addEventListener('install', async event => {
+  //to prevent the manual installation of a new service worker
+  self.skipWaiting()
   const cache = await caches.open(staticCache);
   cache.addAll(assets);
 })
